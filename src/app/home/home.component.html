@@ -1,0 +1,7 @@
+<div class="alert-success well" *ngIf="auth.isAuthenticated()">
+	You have successfully logged in..
+</div>
+
+<div class="alert-success well" *ngIf="!auth.isAuthenticated()">
+	Use the Log in link above to log in
+</div>
